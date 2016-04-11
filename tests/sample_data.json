@@ -1,0 +1,1576 @@
+{
+  "id": "a137c933-cb48-4eff-80c8-ea81e279e377",
+  "type": "light",
+  "name": "Spot 1",
+  "device": {
+    "topic": "$device/b35628d81b",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "b35628d81b",
+    "naturalId": "8",
+    "naturalIdType": "hue",
+    "name": "Spot 1",
+    "thingId": "a137c933-cb48-4eff-80c8-ea81e279e377",
+    "channels": [
+      {
+        "topic": "$device/b35628d81b/channel/brightness",
+        "schema": "http://schema.ninjablocks.com/protocol/brightness",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "brightness",
+        "protocol": "brightness",
+        "deviceId": "b35628d81b",
+        "lastState": {
+          "timestamp": 1459951632758,
+          "payload": 0.2627450980392157
+        }
+      },
+      {
+        "topic": "$device/b35628d81b/channel/transition",
+        "schema": "http://schema.ninjablocks.com/protocol/transition",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "transition",
+        "protocol": "transition",
+        "deviceId": "b35628d81b",
+        "lastState": {
+          "timestamp": 1459951632762,
+          "payload": 500
+        }
+      },
+      {
+        "topic": "$device/b35628d81b/channel/on-off",
+        "schema": "http://schema.ninjablocks.com/protocol/on-off",
+        "supportedMethods": [
+          "set",
+          "toggle",
+          "turnOff",
+          "turnOn"
+        ],
+        "supportedEvents": [],
+        "id": "on-off",
+        "protocol": "on-off",
+        "deviceId": "b35628d81b",
+        "lastState": {
+          "timestamp": 1459951632743,
+          "payload": false
+        }
+      },
+      {
+        "topic": "$device/b35628d81b/channel/batch",
+        "schema": "http://schema.ninjablocks.com/protocol/core/batching",
+        "supportedMethods": [
+          "setBatch"
+        ],
+        "supportedEvents": [],
+        "id": "batch",
+        "protocol": "core/batching",
+        "deviceId": "b35628d81b",
+        "lastState": null
+      },
+      {
+        "topic": "$device/b35628d81b/channel/color",
+        "schema": "http://schema.ninjablocks.com/protocol/color",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "color",
+        "protocol": "color",
+        "deviceId": "b35628d81b",
+        "lastState": {
+          "timestamp": 1459951632759,
+          "payload": {
+            "mode": "xy",
+            "x": 0.5361,
+            "y": 0.4205
+          }
+        }
+      },
+      {
+        "topic": "$device/b35628d81b/channel/identify",
+        "schema": "http://schema.ninjablocks.com/protocol/identify",
+        "supportedMethods": [
+          "identify"
+        ],
+        "supportedEvents": [],
+        "id": "identify",
+        "protocol": "identify",
+        "deviceId": "b35628d81b",
+        "lastState": null
+      }
+    ],
+    "signatures": {
+      "hue:bridge": "001788fffe1a5428",
+      "hue:modelId": "LCT003",
+      "hue:swversion": "66013105",
+      "hue:type": "Extended color light",
+      "ninja:manufacturer": "Phillips",
+      "ninja:productName": "Hue",
+      "ninja:productType": "Light",
+      "ninja:thingType": "light"
+    }
+  },
+  "deviceId": "b35628d81b",
+  "location": "c1350e2a-cd41-481f-9da9-0d3919359920",
+  "promoted": true
+}
+{
+  "id": "bc967c53-669e-409c-92ef-49f3470ddfaf",
+  "type": "xmastree",
+  "name": "Xmas Tree",
+  "device": {
+    "topic": "$device/ef23c63470",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "ef23c63470",
+    "naturalId": "124B0002CCC793",
+    "naturalIdType": "zigbee",
+    "name": "902010/25 by Bitron Home",
+    "thingId": "bc967c53-669e-409c-92ef-49f3470ddfaf",
+    "channels": [
+      {
+        "topic": "$device/ef23c63470/channel/1-1794",
+        "schema": "http://schema.ninjablocks.com/protocol/power",
+        "supportedMethods": null,
+        "supportedEvents": [],
+        "id": "1-1794",
+        "protocol": "power",
+        "deviceId": "ef23c63470",
+        "lastState": {
+          "timestamp": 1460314961963,
+          "payload": 0
+        }
+      },
+      {
+        "topic": "$device/ef23c63470/channel/1-6-in",
+        "schema": "http://schema.ninjablocks.com/protocol/on-off",
+        "supportedMethods": [
+          "toggle",
+          "turnOff",
+          "turnOn",
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "1-6-in",
+        "protocol": "on-off",
+        "deviceId": "ef23c63470",
+        "lastState": {
+          "timestamp": 1460305934451,
+          "payload": false
+        }
+      }
+    ],
+    "signatures": {
+      "ninja:thingType": "socket",
+      "zigbee:ManufacturerName": "Bitron Home",
+      "zigbee:ModelIdentifier": "902010/25"
+    }
+  },
+  "deviceId": "ef23c63470",
+  "location": "c1350e2a-cd41-481f-9da9-0d3919359920",
+  "promoted": true
+}
+{
+  "id": "3c1ba541-516a-4d2b-b4e4-aedd7346175a",
+  "type": "light",
+  "name": "Hoek west",
+  "device": {
+    "topic": "$device/1d5da0146e",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "1d5da0146e",
+    "naturalId": "2",
+    "naturalIdType": "hue",
+    "name": "Vloer",
+    "thingId": "3c1ba541-516a-4d2b-b4e4-aedd7346175a",
+    "channels": [
+      {
+        "topic": "$device/1d5da0146e/channel/brightness",
+        "schema": "http://schema.ninjablocks.com/protocol/brightness",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "brightness",
+        "protocol": "brightness",
+        "deviceId": "1d5da0146e",
+        "lastState": {
+          "timestamp": 1459951632854,
+          "payload": 0.996078431372549
+        }
+      },
+      {
+        "topic": "$device/1d5da0146e/channel/transition",
+        "schema": "http://schema.ninjablocks.com/protocol/transition",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "transition",
+        "protocol": "transition",
+        "deviceId": "1d5da0146e",
+        "lastState": {
+          "timestamp": 1459951632867,
+          "payload": 500
+        }
+      },
+      {
+        "topic": "$device/1d5da0146e/channel/on-off",
+        "schema": "http://schema.ninjablocks.com/protocol/on-off",
+        "supportedMethods": [
+          "set",
+          "toggle",
+          "turnOff",
+          "turnOn"
+        ],
+        "supportedEvents": [],
+        "id": "on-off",
+        "protocol": "on-off",
+        "deviceId": "1d5da0146e",
+        "lastState": {
+          "timestamp": 1459951632773,
+          "payload": false
+        }
+      },
+      {
+        "topic": "$device/1d5da0146e/channel/batch",
+        "schema": "http://schema.ninjablocks.com/protocol/core/batching",
+        "supportedMethods": [
+          "setBatch"
+        ],
+        "supportedEvents": [],
+        "id": "batch",
+        "protocol": "core/batching",
+        "deviceId": "1d5da0146e",
+        "lastState": null
+      },
+      {
+        "topic": "$device/1d5da0146e/channel/color",
+        "schema": "http://schema.ninjablocks.com/protocol/color",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "color",
+        "protocol": "color",
+        "deviceId": "1d5da0146e",
+        "lastState": {
+          "timestamp": 1459951632862,
+          "payload": {
+            "mode": "xy",
+            "x": 0.5318,
+            "y": 0.4262
+          }
+        }
+      },
+      {
+        "topic": "$device/1d5da0146e/channel/identify",
+        "schema": "http://schema.ninjablocks.com/protocol/identify",
+        "supportedMethods": [
+          "identify"
+        ],
+        "supportedEvents": [],
+        "id": "identify",
+        "protocol": "identify",
+        "deviceId": "1d5da0146e",
+        "lastState": null
+      }
+    ],
+    "signatures": {
+      "hue:bridge": "001788fffe1a5428",
+      "hue:modelId": "LCT001",
+      "hue:swversion": "66013452",
+      "hue:type": "Extended color light",
+      "ninja:manufacturer": "Phillips",
+      "ninja:productName": "Hue",
+      "ninja:productType": "Light",
+      "ninja:thingType": "light"
+    }
+  },
+  "deviceId": "1d5da0146e",
+  "location": "c1350e2a-cd41-481f-9da9-0d3919359920",
+  "promoted": true
+}
+{
+  "id": "4LWGNE6RPKQGK",
+  "type": "node",
+  "name": "Spheramid",
+  "device": {
+    "topic": "$device/c0f5f4bab0",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "c0f5f4bab0",
+    "naturalId": "4LWGNE6RPKQGK",
+    "naturalIdType": "node",
+    "name": "Spheramid 4LWGNE6RPKQGK",
+    "thingId": "4LWGNE6RPKQGK",
+    "channels": [],
+    "signatures": {
+      "ninja:manufacturer": "Ninja Blocks Inc.",
+      "ninja:productName": "Spheramid",
+      "ninja:sphereVersion": "1.0.7-1",
+      "ninja:thingType": "node"
+    }
+  },
+  "deviceId": "c0f5f4bab0",
+  "location": "5dad2f05-c2ba-4a09-a1e9-c36353a876f2",
+  "promoted": true
+}
+{
+  "id": "4e1175ae-0885-4194-a46e-2af88e278934",
+  "type": "light",
+  "name": "Spot 3",
+  "device": {
+    "topic": "$device/e301f883fa",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "e301f883fa",
+    "naturalId": "9",
+    "naturalIdType": "hue",
+    "name": "Spot 3",
+    "thingId": "4e1175ae-0885-4194-a46e-2af88e278934",
+    "channels": [
+      {
+        "topic": "$device/e301f883fa/channel/transition",
+        "schema": "http://schema.ninjablocks.com/protocol/transition",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "transition",
+        "protocol": "transition",
+        "deviceId": "e301f883fa",
+        "lastState": {
+          "timestamp": 1459951629983,
+          "payload": 500
+        }
+      },
+      {
+        "topic": "$device/e301f883fa/channel/batch",
+        "schema": "http://schema.ninjablocks.com/protocol/core/batching",
+        "supportedMethods": [
+          "setBatch"
+        ],
+        "supportedEvents": [],
+        "id": "batch",
+        "protocol": "core/batching",
+        "deviceId": "e301f883fa",
+        "lastState": null
+      },
+      {
+        "topic": "$device/e301f883fa/channel/brightness",
+        "schema": "http://schema.ninjablocks.com/protocol/brightness",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "brightness",
+        "protocol": "brightness",
+        "deviceId": "e301f883fa",
+        "lastState": {
+          "timestamp": 1459951629946,
+          "payload": 0.8588235294117647
+        }
+      },
+      {
+        "topic": "$device/e301f883fa/channel/on-off",
+        "schema": "http://schema.ninjablocks.com/protocol/on-off",
+        "supportedMethods": [
+          "set",
+          "toggle",
+          "turnOff",
+          "turnOn"
+        ],
+        "supportedEvents": [],
+        "id": "on-off",
+        "protocol": "on-off",
+        "deviceId": "e301f883fa",
+        "lastState": {
+          "timestamp": 1459951629882,
+          "payload": false
+        }
+      },
+      {
+        "topic": "$device/e301f883fa/channel/color",
+        "schema": "http://schema.ninjablocks.com/protocol/color",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "color",
+        "protocol": "color",
+        "deviceId": "e301f883fa",
+        "lastState": {
+          "timestamp": 1459951629980,
+          "payload": {
+            "mode": "xy",
+            "x": 0.5361,
+            "y": 0.4205
+          }
+        }
+      },
+      {
+        "topic": "$device/e301f883fa/channel/identify",
+        "schema": "http://schema.ninjablocks.com/protocol/identify",
+        "supportedMethods": [
+          "identify"
+        ],
+        "supportedEvents": [],
+        "id": "identify",
+        "protocol": "identify",
+        "deviceId": "e301f883fa",
+        "lastState": null
+      }
+    ],
+    "signatures": {
+      "hue:bridge": "001788fffe1a5428",
+      "hue:modelId": "LCT003",
+      "hue:swversion": "66013105",
+      "hue:type": "Extended color light",
+      "ninja:manufacturer": "Phillips",
+      "ninja:productName": "Hue",
+      "ninja:productType": "Light",
+      "ninja:thingType": "light"
+    }
+  },
+  "deviceId": "e301f883fa",
+  "location": "c1350e2a-cd41-481f-9da9-0d3919359920",
+  "promoted": true
+}
+{
+  "id": "6660210b-4196-46fb-85e0-cdf83b454d71",
+  "type": "tag",
+  "name": "Sleutels arjette",
+  "device": {
+    "topic": "$device/08c8805527",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "08c8805527",
+    "naturalId": "C4:CA:30:22:F2:BB",
+    "naturalIdType": "BLE Mac",
+    "name": "BLE Tag",
+    "thingId": "6660210b-4196-46fb-85e0-cdf83b454d71",
+    "channels": [
+      {
+        "topic": "$device/08c8805527/channel/on-off",
+        "schema": "http://schema.ninjablocks.com/protocol/on-off",
+        "supportedMethods": [
+          "set",
+          "toggle",
+          "turnOff",
+          "turnOn"
+        ],
+        "supportedEvents": [],
+        "id": "on-off",
+        "protocol": "on-off",
+        "deviceId": "08c8805527",
+        "lastState": null
+      },
+      {
+        "topic": "$device/08c8805527/channel/identify",
+        "schema": "http://schema.ninjablocks.com/protocol/identify",
+        "supportedMethods": [
+          "identify"
+        ],
+        "supportedEvents": [],
+        "id": "identify",
+        "protocol": "identify",
+        "deviceId": "08c8805527",
+        "lastState": null
+      }
+    ],
+    "signatures": {
+      "ninja:manufacturer": "Sticknfind",
+      "ninja:productName": "SL6",
+      "ninja:productType": "BLE Tag",
+      "ninja:thingType": "tag"
+    }
+  },
+  "deviceId": "08c8805527",
+  "promoted": true
+}
+{
+  "id": "5c7e05bf-5bd7-4499-b87b-9d97d72970fa",
+  "type": "light",
+  "name": "Bedstee rechts",
+  "device": {
+    "topic": "$device/77517b5561",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "77517b5561",
+    "naturalId": "1",
+    "naturalIdType": "hue",
+    "name": "Bedstee rechts",
+    "thingId": "5c7e05bf-5bd7-4499-b87b-9d97d72970fa",
+    "channels": [
+      {
+        "topic": "$device/77517b5561/channel/batch",
+        "schema": "http://schema.ninjablocks.com/protocol/core/batching",
+        "supportedMethods": [
+          "setBatch"
+        ],
+        "supportedEvents": [],
+        "id": "batch",
+        "protocol": "core/batching",
+        "deviceId": "77517b5561",
+        "lastState": null
+      },
+      {
+        "topic": "$device/77517b5561/channel/on-off",
+        "schema": "http://schema.ninjablocks.com/protocol/on-off",
+        "supportedMethods": [
+          "set",
+          "toggle",
+          "turnOff",
+          "turnOn"
+        ],
+        "supportedEvents": [],
+        "id": "on-off",
+        "protocol": "on-off",
+        "deviceId": "77517b5561",
+        "lastState": {
+          "timestamp": 1459951631933,
+          "payload": false
+        }
+      },
+      {
+        "topic": "$device/77517b5561/channel/brightness",
+        "schema": "http://schema.ninjablocks.com/protocol/brightness",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "brightness",
+        "protocol": "brightness",
+        "deviceId": "77517b5561",
+        "lastState": {
+          "timestamp": 1459951631966,
+          "payload": 0.996078431372549
+        }
+      },
+      {
+        "topic": "$device/77517b5561/channel/transition",
+        "schema": "http://schema.ninjablocks.com/protocol/transition",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "transition",
+        "protocol": "transition",
+        "deviceId": "77517b5561",
+        "lastState": {
+          "timestamp": 1459951632025,
+          "payload": 500
+        }
+      },
+      {
+        "topic": "$device/77517b5561/channel/identify",
+        "schema": "http://schema.ninjablocks.com/protocol/identify",
+        "supportedMethods": [
+          "identify"
+        ],
+        "supportedEvents": [],
+        "id": "identify",
+        "protocol": "identify",
+        "deviceId": "77517b5561",
+        "lastState": null
+      },
+      {
+        "topic": "$device/77517b5561/channel/color",
+        "schema": "http://schema.ninjablocks.com/protocol/color",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "color",
+        "protocol": "color",
+        "deviceId": "77517b5561",
+        "lastState": {
+          "timestamp": 1459951632008,
+          "payload": {
+            "mode": "xy",
+            "x": 0.5318,
+            "y": 0.4262
+          }
+        }
+      }
+    ],
+    "signatures": {
+      "hue:bridge": "001788fffe1a5428",
+      "hue:modelId": "LCT001",
+      "hue:swversion": "66013452",
+      "hue:type": "Extended color light",
+      "ninja:manufacturer": "Phillips",
+      "ninja:productName": "Hue",
+      "ninja:productType": "Light",
+      "ninja:thingType": "light"
+    }
+  },
+  "deviceId": "77517b5561",
+  "location": "c1350e2a-cd41-481f-9da9-0d3919359920",
+  "promoted": true
+}
+{
+  "id": "4fb5b945-de78-4bd5-8643-0aa050aba8fb",
+  "type": "tag",
+  "name": "sleutels gj",
+  "device": {
+    "topic": "$device/3d765b48e4",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "3d765b48e4",
+    "naturalId": "E8:A4:5B:E3:12:CF",
+    "naturalIdType": "BLE Mac",
+    "name": "BLE Tag",
+    "thingId": "4fb5b945-de78-4bd5-8643-0aa050aba8fb",
+    "channels": [
+      {
+        "topic": "$device/3d765b48e4/channel/identify",
+        "schema": "http://schema.ninjablocks.com/protocol/identify",
+        "supportedMethods": [
+          "identify"
+        ],
+        "supportedEvents": [],
+        "id": "identify",
+        "protocol": "identify",
+        "deviceId": "3d765b48e4",
+        "lastState": null
+      },
+      {
+        "topic": "$device/3d765b48e4/channel/on-off",
+        "schema": "http://schema.ninjablocks.com/protocol/on-off",
+        "supportedMethods": [
+          "set",
+          "toggle",
+          "turnOff",
+          "turnOn"
+        ],
+        "supportedEvents": [],
+        "id": "on-off",
+        "protocol": "on-off",
+        "deviceId": "3d765b48e4",
+        "lastState": null
+      }
+    ],
+    "signatures": {
+      "ninja:manufacturer": "Sticknfind",
+      "ninja:productName": "SL6",
+      "ninja:productType": "BLE Tag",
+      "ninja:thingType": "tag"
+    }
+  },
+  "deviceId": "3d765b48e4",
+  "location": "5dad2f05-c2ba-4a09-a1e9-c36353a876f2",
+  "promoted": true
+}
+{
+  "id": "5a0fee16-6918-409a-b6e2-fa1aecc5a461",
+  "type": "mobile",
+  "name": "Nexus 4",
+  "device": {
+    "topic": "$device/8a918feac0",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "8a918feac0",
+    "naturalId": "6256805d9407b493",
+    "naturalIdType": "adrid",
+    "name": "Nexus 4",
+    "thingId": "5a0fee16-6918-409a-b6e2-fa1aecc5a461",
+    "channels": [
+      {
+        "topic": "$device/8a918feac0/channel/cloud-push-notification",
+        "schema": "http://schema.ninjablocks.com/protocol/notification",
+        "supportedMethods": [
+          "display"
+        ],
+        "supportedEvents": [],
+        "id": "cloud-push-notification",
+        "protocol": "notification",
+        "deviceId": "8a918feac0",
+        "lastState": null
+      }
+    ],
+    "signatures": {
+      "ninja:manufacturer": "LGE",
+      "ninja:productName": "occam",
+      "ninja:productType": "Android Device",
+      "ninja:thingType": "mobile"
+    }
+  },
+  "deviceId": "8a918feac0",
+  "promoted": false
+}
+{
+  "id": "84f5289e-1444-458f-b8b0-aa72212af839",
+  "type": "light",
+  "name": "Kamer Andreas",
+  "device": {
+    "topic": "$device/b05d86bae9",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "b05d86bae9",
+    "naturalId": "6",
+    "naturalIdType": "hue",
+    "name": "Kamer Andreas",
+    "thingId": "84f5289e-1444-458f-b8b0-aa72212af839",
+    "channels": [
+      {
+        "topic": "$device/b05d86bae9/channel/batch",
+        "schema": "http://schema.ninjablocks.com/protocol/core/batching",
+        "supportedMethods": [
+          "setBatch"
+        ],
+        "supportedEvents": [],
+        "id": "batch",
+        "protocol": "core/batching",
+        "deviceId": "b05d86bae9",
+        "lastState": null
+      },
+      {
+        "topic": "$device/b05d86bae9/channel/on-off",
+        "schema": "http://schema.ninjablocks.com/protocol/on-off",
+        "supportedMethods": [
+          "set",
+          "toggle",
+          "turnOff",
+          "turnOn"
+        ],
+        "supportedEvents": [],
+        "id": "on-off",
+        "protocol": "on-off",
+        "deviceId": "b05d86bae9",
+        "lastState": {
+          "timestamp": 1459951632992,
+          "payload": false
+        }
+      },
+      {
+        "topic": "$device/b05d86bae9/channel/brightness",
+        "schema": "http://schema.ninjablocks.com/protocol/brightness",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "brightness",
+        "protocol": "brightness",
+        "deviceId": "b05d86bae9",
+        "lastState": {
+          "timestamp": 1459951632999,
+          "payload": 0.11764705882352941
+        }
+      },
+      {
+        "topic": "$device/b05d86bae9/channel/transition",
+        "schema": "http://schema.ninjablocks.com/protocol/transition",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "transition",
+        "protocol": "transition",
+        "deviceId": "b05d86bae9",
+        "lastState": {
+          "timestamp": 1459951633003,
+          "payload": 500
+        }
+      },
+      {
+        "topic": "$device/b05d86bae9/channel/identify",
+        "schema": "http://schema.ninjablocks.com/protocol/identify",
+        "supportedMethods": [
+          "identify"
+        ],
+        "supportedEvents": [],
+        "id": "identify",
+        "protocol": "identify",
+        "deviceId": "b05d86bae9",
+        "lastState": null
+      }
+    ],
+    "signatures": {
+      "hue:bridge": "001788fffe1a5428",
+      "hue:modelId": "LWB004",
+      "hue:swversion": "66012040",
+      "hue:type": "Dimmable light",
+      "ninja:manufacturer": "Phillips",
+      "ninja:productName": "Hue",
+      "ninja:productType": "Light",
+      "ninja:thingType": "light"
+    }
+  },
+  "deviceId": "b05d86bae9",
+  "location": "0f9b6135-2a10-4dbe-9820-379f9d16a039",
+  "promoted": true
+}
+{
+  "id": "fc9a878d-94d9-4172-95ba-b8891d9564b8",
+  "type": "light",
+  "name": "Kamer Beerd",
+  "device": {
+    "topic": "$device/424e6a1f3d",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "424e6a1f3d",
+    "naturalId": "7",
+    "naturalIdType": "hue",
+    "name": "Vitrinekast Andreas",
+    "thingId": "fc9a878d-94d9-4172-95ba-b8891d9564b8",
+    "channels": [
+      {
+        "topic": "$device/424e6a1f3d/channel/batch",
+        "schema": "http://schema.ninjablocks.com/protocol/core/batching",
+        "supportedMethods": [
+          "setBatch"
+        ],
+        "supportedEvents": [],
+        "id": "batch",
+        "protocol": "core/batching",
+        "deviceId": "424e6a1f3d",
+        "lastState": null
+      },
+      {
+        "topic": "$device/424e6a1f3d/channel/brightness",
+        "schema": "http://schema.ninjablocks.com/protocol/brightness",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "brightness",
+        "protocol": "brightness",
+        "deviceId": "424e6a1f3d",
+        "lastState": {
+          "timestamp": 1460300144235,
+          "payload": 0.0196078431372549
+        }
+      },
+      {
+        "topic": "$device/424e6a1f3d/channel/transition",
+        "schema": "http://schema.ninjablocks.com/protocol/transition",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "transition",
+        "protocol": "transition",
+        "deviceId": "424e6a1f3d",
+        "lastState": {
+          "timestamp": 1460300144285,
+          "payload": 500
+        }
+      },
+      {
+        "topic": "$device/424e6a1f3d/channel/on-off",
+        "schema": "http://schema.ninjablocks.com/protocol/on-off",
+        "supportedMethods": [
+          "toggle",
+          "turnOff",
+          "turnOn",
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "on-off",
+        "protocol": "on-off",
+        "deviceId": "424e6a1f3d",
+        "lastState": {
+          "timestamp": 1460300144173,
+          "payload": false
+        }
+      },
+      {
+        "topic": "$device/424e6a1f3d/channel/color",
+        "schema": "http://schema.ninjablocks.com/protocol/color",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "color",
+        "protocol": "color",
+        "deviceId": "424e6a1f3d",
+        "lastState": {
+          "timestamp": 1460300144271,
+          "payload": {
+            "mode": "xy",
+            "x": 0.5913,
+            "y": 0.3968
+          }
+        }
+      },
+      {
+        "topic": "$device/424e6a1f3d/channel/identify",
+        "schema": "http://schema.ninjablocks.com/protocol/identify",
+        "supportedMethods": [
+          "identify"
+        ],
+        "supportedEvents": [],
+        "id": "identify",
+        "protocol": "identify",
+        "deviceId": "424e6a1f3d",
+        "lastState": null
+      }
+    ],
+    "signatures": {
+      "hue:bridge": "001788fffe1a5428",
+      "hue:modelId": "LST001",
+      "hue:swversion": "66013452",
+      "hue:type": "Color light",
+      "ninja:manufacturer": "Phillips",
+      "ninja:productName": "Hue",
+      "ninja:productType": "Light",
+      "ninja:thingType": "light"
+    }
+  },
+  "deviceId": "424e6a1f3d",
+  "location": "dab9c1b9-f799-4ef2-87d7-f4e4cce28597",
+  "promoted": true
+}
+{
+  "id": "3af0ff64-2ecc-4323-9039-fc16b030accb",
+  "type": "mobile",
+  "name": "XT1039",
+  "device": {
+    "topic": "$device/1391cced20",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "1391cced20",
+    "naturalId": "e5a48aa6b1d06957",
+    "naturalIdType": "adrid",
+    "name": "XT1039",
+    "thingId": "3af0ff64-2ecc-4323-9039-fc16b030accb",
+    "channels": [
+      {
+        "topic": "$device/1391cced20/channel/cloud-push-notification",
+        "schema": "http://schema.ninjablocks.com/protocol/notification",
+        "supportedMethods": [
+          "display"
+        ],
+        "supportedEvents": [],
+        "id": "cloud-push-notification",
+        "protocol": "notification",
+        "deviceId": "1391cced20",
+        "lastState": null
+      }
+    ],
+    "signatures": {
+      "ninja:manufacturer": "motorola",
+      "ninja:productName": "peregrine_reteu",
+      "ninja:productType": "Android Device",
+      "ninja:thingType": "mobile"
+    }
+  },
+  "deviceId": "1391cced20",
+  "promoted": false
+}
+{
+  "id": "f881bdfc-0cca-4939-af95-b7533a066fd9",
+  "type": "light",
+  "name": "Vloer",
+  "device": {
+    "topic": "$device/ea0dc6bc65",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "ea0dc6bc65",
+    "naturalId": "4",
+    "naturalIdType": "hue",
+    "name": "Hoek west",
+    "thingId": "f881bdfc-0cca-4939-af95-b7533a066fd9",
+    "channels": [
+      {
+        "topic": "$device/ea0dc6bc65/channel/batch",
+        "schema": "http://schema.ninjablocks.com/protocol/core/batching",
+        "supportedMethods": [
+          "setBatch"
+        ],
+        "supportedEvents": [],
+        "id": "batch",
+        "protocol": "core/batching",
+        "deviceId": "ea0dc6bc65",
+        "lastState": null
+      },
+      {
+        "topic": "$device/ea0dc6bc65/channel/on-off",
+        "schema": "http://schema.ninjablocks.com/protocol/on-off",
+        "supportedMethods": [
+          "set",
+          "toggle",
+          "turnOff",
+          "turnOn"
+        ],
+        "supportedEvents": [],
+        "id": "on-off",
+        "protocol": "on-off",
+        "deviceId": "ea0dc6bc65",
+        "lastState": {
+          "timestamp": 1459951632915,
+          "payload": false
+        }
+      },
+      {
+        "topic": "$device/ea0dc6bc65/channel/brightness",
+        "schema": "http://schema.ninjablocks.com/protocol/brightness",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "brightness",
+        "protocol": "brightness",
+        "deviceId": "ea0dc6bc65",
+        "lastState": {
+          "timestamp": 1459951632920,
+          "payload": 0.8666666666666667
+        }
+      },
+      {
+        "topic": "$device/ea0dc6bc65/channel/transition",
+        "schema": "http://schema.ninjablocks.com/protocol/transition",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "transition",
+        "protocol": "transition",
+        "deviceId": "ea0dc6bc65",
+        "lastState": {
+          "timestamp": 1459951632925,
+          "payload": 500
+        }
+      },
+      {
+        "topic": "$device/ea0dc6bc65/channel/identify",
+        "schema": "http://schema.ninjablocks.com/protocol/identify",
+        "supportedMethods": [
+          "identify"
+        ],
+        "supportedEvents": [],
+        "id": "identify",
+        "protocol": "identify",
+        "deviceId": "ea0dc6bc65",
+        "lastState": null
+      }
+    ],
+    "signatures": {
+      "hue:bridge": "001788fffe1a5428",
+      "hue:modelId": "LWB004",
+      "hue:swversion": "66012040",
+      "hue:type": "Dimmable light",
+      "ninja:manufacturer": "Phillips",
+      "ninja:productName": "Hue",
+      "ninja:productType": "Light",
+      "ninja:thingType": "light"
+    }
+  },
+  "deviceId": "ea0dc6bc65",
+  "location": "c1350e2a-cd41-481f-9da9-0d3919359920",
+  "promoted": true
+}
+{
+  "id": "051768af-f3d8-4a03-81a8-d370fc141035",
+  "type": "light",
+  "name": "Bedstee links",
+  "device": {
+    "topic": "$device/b6b984190f",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "b6b984190f",
+    "naturalId": "3",
+    "naturalIdType": "hue",
+    "name": "Bedstee links",
+    "thingId": "051768af-f3d8-4a03-81a8-d370fc141035",
+    "channels": [
+      {
+        "topic": "$device/b6b984190f/channel/transition",
+        "schema": "http://schema.ninjablocks.com/protocol/transition",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "transition",
+        "protocol": "transition",
+        "deviceId": "b6b984190f",
+        "lastState": {
+          "timestamp": 1459951632392,
+          "payload": 500
+        }
+      },
+      {
+        "topic": "$device/b6b984190f/channel/batch",
+        "schema": "http://schema.ninjablocks.com/protocol/core/batching",
+        "supportedMethods": [
+          "setBatch"
+        ],
+        "supportedEvents": [],
+        "id": "batch",
+        "protocol": "core/batching",
+        "deviceId": "b6b984190f",
+        "lastState": null
+      },
+      {
+        "topic": "$device/b6b984190f/channel/brightness",
+        "schema": "http://schema.ninjablocks.com/protocol/brightness",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "brightness",
+        "protocol": "brightness",
+        "deviceId": "b6b984190f",
+        "lastState": {
+          "timestamp": 1459951632380,
+          "payload": 0.996078431372549
+        }
+      },
+      {
+        "topic": "$device/b6b984190f/channel/on-off",
+        "schema": "http://schema.ninjablocks.com/protocol/on-off",
+        "supportedMethods": [
+          "set",
+          "toggle",
+          "turnOff",
+          "turnOn"
+        ],
+        "supportedEvents": [],
+        "id": "on-off",
+        "protocol": "on-off",
+        "deviceId": "b6b984190f",
+        "lastState": {
+          "timestamp": 1459951632374,
+          "payload": false
+        }
+      },
+      {
+        "topic": "$device/b6b984190f/channel/color",
+        "schema": "http://schema.ninjablocks.com/protocol/color",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "color",
+        "protocol": "color",
+        "deviceId": "b6b984190f",
+        "lastState": {
+          "timestamp": 1459951632387,
+          "payload": {
+            "mode": "xy",
+            "x": 0.5318,
+            "y": 0.4262
+          }
+        }
+      },
+      {
+        "topic": "$device/b6b984190f/channel/identify",
+        "schema": "http://schema.ninjablocks.com/protocol/identify",
+        "supportedMethods": [
+          "identify"
+        ],
+        "supportedEvents": [],
+        "id": "identify",
+        "protocol": "identify",
+        "deviceId": "b6b984190f",
+        "lastState": null
+      }
+    ],
+    "signatures": {
+      "hue:bridge": "001788fffe1a5428",
+      "hue:modelId": "LCT001",
+      "hue:swversion": "66013452",
+      "hue:type": "Extended color light",
+      "ninja:manufacturer": "Phillips",
+      "ninja:productName": "Hue",
+      "ninja:productType": "Light",
+      "ninja:thingType": "light"
+    }
+  },
+  "deviceId": "b6b984190f",
+  "location": "c1350e2a-cd41-481f-9da9-0d3919359920",
+  "promoted": true
+}
+{
+  "id": "de8ef884-718d-4aa7-9d6f-b680b6744ede",
+  "type": "mediaplayer",
+  "name": "Chromecast Drummen\\ meeluisteren._googlecast._tcp.local.",
+  "device": {
+    "topic": "$device/30e7bf5b98",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "30e7bf5b98",
+    "naturalId": "Drummen\\ meeluisteren._googlecast._tcp.local.",
+    "naturalIdType": "mdns",
+    "name": "Chromecast Drummen\\ meeluisteren._googlecast._tcp.local.",
+    "thingId": "de8ef884-718d-4aa7-9d6f-b680b6744ede",
+    "channels": [
+      {
+        "topic": "$device/30e7bf5b98/channel/control",
+        "schema": "http://schema.ninjablocks.com/protocol/media-control",
+        "supportedMethods": [
+          "play",
+          "pause",
+          "togglePlay"
+        ],
+        "supportedEvents": [
+          "playing",
+          "paused",
+          "stopped",
+          "buffering",
+          "busy",
+          "idle",
+          "inactive"
+        ],
+        "id": "control",
+        "protocol": "media-control",
+        "deviceId": "30e7bf5b98",
+        "lastState": null
+      },
+      {
+        "topic": "$device/30e7bf5b98/channel/volume",
+        "schema": "http://schema.ninjablocks.com/protocol/volume",
+        "supportedMethods": [
+          "set",
+          "volumeUp",
+          "volumeDown",
+          "mute",
+          "unmute"
+        ],
+        "supportedEvents": [
+          "state"
+        ],
+        "id": "volume",
+        "protocol": "volume",
+        "deviceId": "30e7bf5b98",
+        "lastState": {
+          "timestamp": 1459951655543,
+          "payload": {
+            "level": 1,
+            "muted": false
+          }
+        }
+      }
+    ],
+    "signatures": {
+      "ninja:manufacturer": "Google",
+      "ninja:productName": "Chromecast",
+      "ninja:thingType": "mediaplayer"
+    }
+  },
+  "deviceId": "30e7bf5b98",
+  "promoted": false
+}
+{
+  "id": "4LWOMHGJPCQCK",
+  "type": "node",
+  "name": "Spheramid",
+  "device": {
+    "topic": "$device/889e28e85d",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "889e28e85d",
+    "naturalId": "4LWOMHGJPCQCK",
+    "naturalIdType": "node",
+    "name": "Spheramid 4LWOMHGJPCQCK",
+    "thingId": "4LWOMHGJPCQCK",
+    "channels": [],
+    "signatures": {
+      "ninja:manufacturer": "Ninja Blocks Inc.",
+      "ninja:productName": "Spheramid",
+      "ninja:sphereVersion": "1.0.5-1",
+      "ninja:thingType": "node"
+    }
+  },
+  "deviceId": "889e28e85d",
+  "location": "dab9c1b9-f799-4ef2-87d7-f4e4cce28597",
+  "promoted": true
+}
+{
+  "id": "3a7f2774-97ca-4367-af75-6f0559e13e3a",
+  "type": "xmastree",
+  "name": "Xmas Tree red",
+  "device": {
+    "topic": "$device/06537e1f9a",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "06537e1f9a",
+    "naturalId": "137A000001A7DB",
+    "naturalIdType": "zigbee",
+    "name": "Ninja Smart plug by Ninja Blocks Inc",
+    "thingId": "3a7f2774-97ca-4367-af75-6f0559e13e3a",
+    "channels": [
+      {
+        "topic": "$device/06537e1f9a/channel/1-1794",
+        "schema": "http://schema.ninjablocks.com/protocol/power",
+        "supportedMethods": null,
+        "supportedEvents": [],
+        "id": "1-1794",
+        "protocol": "power",
+        "deviceId": "06537e1f9a",
+        "lastState": null
+      },
+      {
+        "topic": "$device/06537e1f9a/channel/1-6-in",
+        "schema": "http://schema.ninjablocks.com/protocol/on-off",
+        "supportedMethods": [
+          "toggle",
+          "turnOff",
+          "turnOn",
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "1-6-in",
+        "protocol": "on-off",
+        "deviceId": "06537e1f9a",
+        "lastState": null
+      }
+    ],
+    "signatures": {
+      "ninja:thingType": "socket",
+      "zigbee:ManufacturerName": "Ninja Blocks Inc",
+      "zigbee:ModelIdentifier": "Ninja Smart plug"
+    }
+  },
+  "deviceId": "06537e1f9a",
+  "location": "b6a2b623-8562-486d-a859-4eeca55377c5",
+  "promoted": true
+}
+{
+  "id": "f4b1a3ea-4ae9-4dd3-9e78-0a4fc5197755",
+  "type": "light",
+  "name": "Bureau Gert-Jan",
+  "device": {
+    "topic": "$device/29f4ca5e88",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "29f4ca5e88",
+    "naturalId": "5",
+    "naturalIdType": "hue",
+    "name": "Bureau Gert-Jan",
+    "thingId": "f4b1a3ea-4ae9-4dd3-9e78-0a4fc5197755",
+    "channels": [
+      {
+        "topic": "$device/29f4ca5e88/channel/batch",
+        "schema": "http://schema.ninjablocks.com/protocol/core/batching",
+        "supportedMethods": [
+          "setBatch"
+        ],
+        "supportedEvents": [],
+        "id": "batch",
+        "protocol": "core/batching",
+        "deviceId": "29f4ca5e88",
+        "lastState": null
+      },
+      {
+        "topic": "$device/29f4ca5e88/channel/on-off",
+        "schema": "http://schema.ninjablocks.com/protocol/on-off",
+        "supportedMethods": [
+          "set",
+          "toggle",
+          "turnOff",
+          "turnOn"
+        ],
+        "supportedEvents": [],
+        "id": "on-off",
+        "protocol": "on-off",
+        "deviceId": "29f4ca5e88",
+        "lastState": {
+          "timestamp": 1460312847524,
+          "payload": true
+        }
+      },
+      {
+        "topic": "$device/29f4ca5e88/channel/brightness",
+        "schema": "http://schema.ninjablocks.com/protocol/brightness",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "brightness",
+        "protocol": "brightness",
+        "deviceId": "29f4ca5e88",
+        "lastState": {
+          "timestamp": 1460312847570,
+          "payload": 0.9333333333333333
+        }
+      },
+      {
+        "topic": "$device/29f4ca5e88/channel/transition",
+        "schema": "http://schema.ninjablocks.com/protocol/transition",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "transition",
+        "protocol": "transition",
+        "deviceId": "29f4ca5e88",
+        "lastState": {
+          "timestamp": 1460312847616,
+          "payload": 100
+        }
+      },
+      {
+        "topic": "$device/29f4ca5e88/channel/identify",
+        "schema": "http://schema.ninjablocks.com/protocol/identify",
+        "supportedMethods": [
+          "identify"
+        ],
+        "supportedEvents": [],
+        "id": "identify",
+        "protocol": "identify",
+        "deviceId": "29f4ca5e88",
+        "lastState": null
+      }
+    ],
+    "signatures": {
+      "hue:bridge": "001788fffe1a5428",
+      "hue:modelId": "LWB004",
+      "hue:swversion": "66012040",
+      "hue:type": "Dimmable light",
+      "ninja:manufacturer": "Phillips",
+      "ninja:productName": "Hue",
+      "ninja:productType": "Light",
+      "ninja:thingType": "light"
+    }
+  },
+  "deviceId": "29f4ca5e88",
+  "location": "5dad2f05-c2ba-4a09-a1e9-c36353a876f2",
+  "promoted": true
+}
+{
+  "id": "cee13521-fa45-4559-9f87-60882e26287e",
+  "type": "light",
+  "name": "spot 2",
+  "device": {
+    "topic": "$device/be5a23604d",
+    "schema": "http://schema.ninjablocks.com/service/device",
+    "supportedMethods": null,
+    "supportedEvents": [],
+    "id": "be5a23604d",
+    "naturalId": "10",
+    "naturalIdType": "hue",
+    "name": "spot 2",
+    "thingId": "cee13521-fa45-4559-9f87-60882e26287e",
+    "channels": [
+      {
+        "topic": "$device/be5a23604d/channel/transition",
+        "schema": "http://schema.ninjablocks.com/protocol/transition",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "transition",
+        "protocol": "transition",
+        "deviceId": "be5a23604d",
+        "lastState": {
+          "timestamp": 1459951630970,
+          "payload": 500
+        }
+      },
+      {
+        "topic": "$device/be5a23604d/channel/batch",
+        "schema": "http://schema.ninjablocks.com/protocol/core/batching",
+        "supportedMethods": [
+          "setBatch"
+        ],
+        "supportedEvents": [],
+        "id": "batch",
+        "protocol": "core/batching",
+        "deviceId": "be5a23604d",
+        "lastState": null
+      },
+      {
+        "topic": "$device/be5a23604d/channel/on-off",
+        "schema": "http://schema.ninjablocks.com/protocol/on-off",
+        "supportedMethods": [
+          "set",
+          "toggle",
+          "turnOff",
+          "turnOn"
+        ],
+        "supportedEvents": [],
+        "id": "on-off",
+        "protocol": "on-off",
+        "deviceId": "be5a23604d",
+        "lastState": {
+          "timestamp": 1459951630861,
+          "payload": false
+        }
+      },
+      {
+        "topic": "$device/be5a23604d/channel/brightness",
+        "schema": "http://schema.ninjablocks.com/protocol/brightness",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "brightness",
+        "protocol": "brightness",
+        "deviceId": "be5a23604d",
+        "lastState": {
+          "timestamp": 1459951630923,
+          "payload": 0.996078431372549
+        }
+      },
+      {
+        "topic": "$device/be5a23604d/channel/color",
+        "schema": "http://schema.ninjablocks.com/protocol/color",
+        "supportedMethods": [
+          "set"
+        ],
+        "supportedEvents": [],
+        "id": "color",
+        "protocol": "color",
+        "deviceId": "be5a23604d",
+        "lastState": {
+          "timestamp": 1459951630955,
+          "payload": {
+            "mode": "xy",
+            "x": 0.5352,
+            "y": 0.4205
+          }
+        }
+      },
+      {
+        "topic": "$device/be5a23604d/channel/identify",
+        "schema": "http://schema.ninjablocks.com/protocol/identify",
+        "supportedMethods": [
+          "identify"
+        ],
+        "supportedEvents": [],
+        "id": "identify",
+        "protocol": "identify",
+        "deviceId": "be5a23604d",
+        "lastState": null
+      }
+    ],
+    "signatures": {
+      "hue:bridge": "001788fffe1a5428",
+      "hue:modelId": "LCT003",
+      "hue:swversion": "66013105",
+      "hue:type": "Extended color light",
+      "ninja:manufacturer": "Phillips",
+      "ninja:productName": "Hue",
+      "ninja:productType": "Light",
+      "ninja:thingType": "light"
+    }
+  },
+  "deviceId": "be5a23604d",
+  "promoted": false
+}
