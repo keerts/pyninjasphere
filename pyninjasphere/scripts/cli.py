@@ -5,7 +5,7 @@ Ninjasphere cli
 
 import click
 
-from pyninjasphere.things import Node
+from pyninjasphere.logic.node import Node
 
 
 @click.group()
