@@ -5,24 +5,50 @@ import urllib.request
 
 
 class HTTPClient:
-    'The HTTPClient sends and receives data over HTTP'
+    """The HTTPClient sends and receives data over HTTP"""
 
-    def __init__(self):
+    def __init__(self, headers = None):
         self.values = None
-        self.headers = {
-            'Content-Type': 'application/json',
-            'JsonStub-User-Key': 'e2ace556-284c-4b21-9dc5-9900cf4d7236',
-            'JsonStub-Project-Key': '7b32ef13-8be8-4e6d-8924-fcc33efb476b'
-        }
-
-
+        self.headers = headers
+        if headers is None:
+            self.headers = {
+                'Content-Type': 'application/json',
+            }
 
     def get_data_with_http_request(self, url):
+        """
+        Gets data from an url
+        :param url: http url
+        :return: the requested data
+        """
         print("[SERVICES][HTTPCLIENT] sendHTTPRequest")
-        request = urllib.request.Request(url,self.values, self.headers)
-        response = urllib.request.urlopen(request)
-        data = response.read().decode('utf-8')
-        print(data)
-
+        request = self.create_request(url)
+        response = self.create_response(request)
+        data = self.decode_response(response)
         return data
 
+    def create_request(self, url):
+        """
+        Creates a request object
+        :param url: http url
+        :return: A request object
+        """
+        return urllib.request.Request(url)
+
+    @staticmethod
+    def create_response(request):
+        """
+        Creates a response object containing the data gotten from the url
+        :param request: A request object
+        :return: A response object
+        """
+        return urllib.request.urlopen(request)
+
+    @staticmethod
+    def decode_response(response):
+        """
+        Reads the data from a response object and returns it
+        :param response: A response object
+        :return: Fetched data
+        """
+        return response.read().decode('utf-8')

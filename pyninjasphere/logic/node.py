@@ -15,15 +15,12 @@ class Node(jsonmodels.Base):
     def __init__(self):
         self.things = None
 
-    def _construct_url(self):
-        pass
-        """
-        Creates the full url to the node
-        """
-        # return 'http://' + self.host + ':' + repr(self.PORT) + self.PATH
 
     def get_all_things(self):
-
+        """
+        Gets all the things
+        :return: all the things
+        """
         return self.things
 
     def get_things(self, thing_type):

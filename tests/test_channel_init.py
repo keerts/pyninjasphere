@@ -1,4 +1,4 @@
-# created by sharon
+# created by Simon
 # Project team: TechMasters
 
 import unittest
@@ -10,21 +10,38 @@ class ChannelTestCase(unittest.TestCase):
     Test class for Channel class
     """
 
-    def suite(self):
-        suite = unittest.TestSuite()
-        suite.addTest(ChannelTestCase('test_name'))
-        suite.addTest(ChannelTestCase('test_location'))
-        return suite()
-
     def setUp(self):
-        self.channel = Channel("$device/b35628d81b/channel/brightness", "http://schema.ninjablocks.com/protocol/brightness",
-                             ["set"], [], "brightness", "brightness", "b35628d81b", 1459951632758, 0.2627450980392157)
+        self.arguments = {"topic": "testtopic", "schema": "testschema", "supportedMethods": "testmethod",
+                          "supportedEvents": "testevent", "id": "testid", "protocol": "testprotocol", "deviceId": 4,
+                          "lastState": {"timestamp": "2014-10-18 21:31:12", "payload": "teststate"}}
+        self.channel = Channel(**self.arguments)
 
     def tearDown(self):
-        self.thing = None
+        self.channel = None
+
+    def test_topic(self):
+        self.assertEqual(self.channel.topic, self.arguments["topic"])
 
     def test_schema(self):
-        self.assertEqual(self.channel.schema, "http://schema.ninjablocks.com/protocol/brightness")
+        self.assertEqual(self.channel.schema, self.arguments["schema"])
+
+    def test_supportedMethods(self):
+        self.assertEqual(self.channel.supportedMethods, self.arguments["supportedMethods"])
+
+    def test_supportedEvents(self):
+        self.assertEqual(self.channel.supportedEvents, self.arguments["supportedEvents"])
+
+    def test_id(self):
+        self.assertEqual(self.channel.id, self.arguments["id"])
 
     def test_protocol(self):
-        self.assertEqual(self.channel.protocol, "brightness")
+        self.assertEqual(self.channel.protocol, self.arguments["protocol"])
+
+    def test_deviceId(self):
+        self.assertEqual(self.channel.deviceId, self.arguments["deviceId"])
+
+    def test_lastState_timestamp(self):
+        self.assertEqual(self.channel.lastState.timestamp, self.arguments["lastState"]["timestamp"])
+
+    def test_lastState_payload(self):
+        self.assertEqual(self.channel.lastState.payload, self.arguments["lastState"]["payload"])
