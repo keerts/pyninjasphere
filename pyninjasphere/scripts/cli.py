@@ -48,8 +48,7 @@ LONG_ARGUMENT_PAYLOAD = "--payload"
 @click.group(context_settings=CONTEXT_SETTINGS)
 def cli():
     """
-    Retrieves the json code from the Ninja Sphere
-    and converts them to python objects.
+    Call the things service on the Ninja Sphere.
     """
 
     pass
@@ -68,11 +67,11 @@ def cli():
               help=HELP_REST_PORT)
 def list(host, mqtt_port, rest_port):
     """
-    List the things attached to the Ninja Sphere.
+    List the things registered with the Ninja Sphere.
 
     :param host: Host address of the Ninja Sphere.
-    :param mqtt_port: Port of the mqtt of the Ninja Sphere.
-    :param rest_port: Port of the rest server.
+    :param mqtt_port: Port of the mqtt server of the Ninja Sphere.
+    :param rest_port: Port of the rest interface.
     """
 
     click.echo("Listing things from host " + host + ".")
@@ -103,8 +102,8 @@ def get_json(host, mqtt_port, rest_port, url):
 
     \b
     :param host: Host address of the Ninja Sphere.
-    :param mqtt_port: Port of the mqtt of the Ninja Sphere.
-    :param rest_port: Port of the rest server.
+    :param mqtt_port: Port of the mqtt server of the Ninja Sphere.
+    :param rest_port: Port of the rest interface.
     :param url: Url you want to retrieve the json code from.
     """
 
@@ -144,8 +143,8 @@ def publish(host, mqtt_port, rest_port, topic, payload):
 
     \b
     :param host: Host address of the Ninja Sphere.
-    :param mqtt_port: Port of the mqtt of the Ninja Sphere.
-    :param rest_port: Port of the rest server.
+    :param mqtt_port: Port of the mqtt server of the Ninja Sphere.
+    :param rest_port: Port of the rest interface.
     :param topic: Topic you want to publish data to.
     :param payload: Data you want to publish to the topic.
     """
@@ -184,8 +183,8 @@ def subscribe(host, mqtt_port, rest_port, topic):
 
     \b
     :param host: Host address of the Ninja Sphere.
-    :param mqtt_port: Port of the mqtt of the Ninja Sphere.
-    :param rest_port: Port of the rest server.
+    :param mqtt_port: Port of the mqtt server of the Ninja Sphere.
+    :param rest_port: Port of the rest interface.
     :param topic: Topic you want to subscribe to.
     """
     click.echo("Subscribing to topic: " + topic + ".")
