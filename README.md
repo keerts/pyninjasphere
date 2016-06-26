@@ -21,3 +21,7 @@ Listing things from host 192.168.192.33.
 {'promoted': True, 'name': 'Spot 1', 'location': 'c1350e2a-41cd-345g-9da9-0d3919359920', 'id': 'a137c933-cb48-4eff-80c8-ea81e279e377', 'device': <Device: Device object>, 'deviceId': 'b35628d81b', 'type': 'light'}
 {'promoted': False, 'name': 'Nexus 4', 'location': None, 'id': '5a0fee16-6918-409a-b6e2-fa1aecc5a461', 'device': <Device: Device object>, 'deviceId': '8a918feac0', 'type': 'mobile'}
 ```
+
+## Acknowledgements
+
+Thanks @ronneke1996 et al for creating the largest parts of the module and providing a pull request.
