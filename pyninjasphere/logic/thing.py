@@ -5,17 +5,13 @@ from .device import Device
 class Thing(Base):
     """ Class for smart Things, used to identify things. """
 
+    keywords = ["id", "deviceId", "type", "name", "location", "promoted"]
+
     def __init__(self, **kwargs):
-        """
-        Initializes a Thing object by looping through the
-        keywords in kwargs and setting them as attributes.
-        :param kwargs: Dictionary containing a thing.
-        """
-        for keyword in ["id", "type", "name", "device", "deviceId",
-                        "location", "promoted"]:
-            if keyword == "device" and kwargs[keyword] is not None:
-                kwargs[keyword] = Device(**kwargs[keyword])
-            if keyword == "location":
-                self.location = kwargs.get(keyword)
-            else:
-                setattr(self, keyword, kwargs[keyword])
+        """ Initializes a Thing """
+        if "device" in kwargs and kwargs["device"] is not None:
+            self.device = Device(**kwargs["device"])
+        else:
+            self.device = None
+        for keyword in self.keywords:
+            setattr(self, keyword, kwargs.get(keyword, ""))

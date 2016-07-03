@@ -1,0 +1,826 @@
+{
+  "type": "object",
+  "data": [
+    {
+      "id": "ab6320d4-c5b5-43a9-8e2a-58a23afc4772",
+      "type": "tag",
+      "name": "BLE Tag",
+      "device": {
+        "topic": "$device/b7847916f5",
+        "schema": "http://schema.ninjablocks.com/service/device",
+        "supportedMethods": null,
+        "supportedEvents": [],
+        "id": "b7847916f5",
+        "naturalId": "CA:E2:A5:44:DD:E3",
+        "naturalIdType": "BLE Mac",
+        "name": "BLE Tag",
+        "thingId": "ab6320d4-c5b5-43a9-8e2a-58a23afc4772",
+        "channels": [
+          {
+            "topic": "$device/b7847916f5/channel/on-off",
+            "schema": "http://schema.ninjablocks.com/protocol/on-off",
+            "supportedMethods": [
+              "turnOn",
+              "set",
+              "toggle",
+              "turnOff"
+            ],
+            "supportedEvents": [],
+            "id": "on-off",
+            "protocol": "on-off",
+            "deviceId": "b7847916f5",
+            "lastState": null
+          },
+          {
+            "topic": "$device/b7847916f5/channel/identify",
+            "schema": "http://schema.ninjablocks.com/protocol/identify",
+            "supportedMethods": [
+              "identify"
+            ],
+            "supportedEvents": [],
+            "id": "identify",
+            "protocol": "identify",
+            "deviceId": "b7847916f5",
+            "lastState": null
+          }
+        ],
+        "signatures": {
+          "ninja:manufacturer": "Sticknfind",
+          "ninja:productName": "SL6",
+          "ninja:productType": "BLE Tag",
+          "ninja:thingType": "tag"
+        }
+      },
+      "deviceId": "b7847916f5",
+      "promoted": false
+    },
+    {
+      "id": "2b20b6ed-cb63-11e4-995c-7c669d04e52a",
+      "type": "tag",
+      "name": "BLE Tag",
+      "device": {
+        "topic": "$device/e668256512",
+        "schema": "http://schema.ninjablocks.com/service/device",
+        "supportedMethods": null,
+        "supportedEvents": [],
+        "id": "e668256512",
+        "naturalId": "D5:E8:F8:79:55:96",
+        "naturalIdType": "BLE Mac",
+        "name": "BLE Tag",
+        "thingId": "2b20b6ed-cb63-11e4-995c-7c669d04e52a",
+        "channels": [
+          {
+            "topic": "$device/e668256512/channel/on-off",
+            "schema": "http://schema.ninjablocks.com/protocol/on-off",
+            "supportedMethods": [
+              "set",
+              "toggle",
+              "turnOff",
+              "turnOn"
+            ],
+            "supportedEvents": [],
+            "id": "on-off",
+            "protocol": "on-off",
+            "deviceId": "e668256512",
+            "lastState": null
+          },
+          {
+            "topic": "$device/e668256512/channel/identify",
+            "schema": "http://schema.ninjablocks.com/protocol/identify",
+            "supportedMethods": [
+              "identify"
+            ],
+            "supportedEvents": [],
+            "id": "identify",
+            "protocol": "identify",
+            "deviceId": "e668256512",
+            "lastState": null
+          }
+        ],
+        "signatures": {
+          "ninja:manufacturer": "Sticknfind",
+          "ninja:productName": "SL6",
+          "ninja:productType": "BLE Tag",
+          "ninja:thingType": "tag"
+        }
+      },
+      "deviceId": "e668256512",
+      "promoted": false
+    },
+    {
+      "id": "a235034a-c7e6-11e4-8e2d-7c669d04e52a",
+      "type": "light",
+      "name": "Floor Lamp",
+      "device": {
+        "topic": "$device/f322b57c0d",
+        "schema": "http://schema.ninjablocks.com/service/device",
+        "supportedMethods": null,
+        "supportedEvents": [],
+        "id": "f322b57c0d",
+        "naturalId": "d073d5015287",
+        "naturalIdType": "lifx",
+        "name": "Floor Lamp",
+        "thingId": "a235034a-c7e6-11e4-8e2d-7c669d04e52a",
+        "channels": [
+          {
+            "topic": "$device/f322b57c0d/channel/brightness",
+            "schema": "http://schema.ninjablocks.com/protocol/brightness",
+            "supportedMethods": [
+              "set"
+            ],
+            "supportedEvents": [],
+            "id": "brightness",
+            "protocol": "brightness",
+            "deviceId": "f322b57c0d",
+            "lastState": {
+              "timestamp": 1467280318625,
+              "payload": 0.583916990920882
+            }
+          },
+          {
+            "topic": "$device/f322b57c0d/channel/illuminance",
+            "schema": "http://schema.ninjablocks.com/protocol/illuminance",
+            "supportedMethods": null,
+            "supportedEvents": [],
+            "id": "illuminance",
+            "protocol": "illuminance",
+            "deviceId": "f322b57c0d",
+            "lastState": {
+              "timestamp": 1467280653312,
+              "payload": 1
+            }
+          },
+          {
+            "topic": "$device/f322b57c0d/channel/on-off",
+            "schema": "http://schema.ninjablocks.com/protocol/on-off",
+            "supportedMethods": [
+              "set",
+              "toggle",
+              "turnOff",
+              "turnOn"
+            ],
+            "supportedEvents": [],
+            "id": "on-off",
+            "protocol": "on-off",
+            "deviceId": "f322b57c0d",
+            "lastState": {
+              "timestamp": 1467280318593,
+              "payload": false
+            }
+          },
+          {
+            "topic": "$device/f322b57c0d/channel/color",
+            "schema": "http://schema.ninjablocks.com/protocol/color",
+            "supportedMethods": [
+              "set"
+            ],
+            "supportedEvents": [],
+            "id": "color",
+            "protocol": "color",
+            "deviceId": "f322b57c0d",
+            "lastState": {
+              "timestamp": 1467280318640,
+              "payload": {
+                "hue": 0.14934004730296788,
+                "mode": "hue",
+                "saturation": 0.6
+              }
+            }
+          },
+          {
+            "topic": "$device/f322b57c0d/channel/transition",
+            "schema": "http://schema.ninjablocks.com/protocol/transition",
+            "supportedMethods": [
+              "set"
+            ],
+            "supportedEvents": [],
+            "id": "transition",
+            "protocol": "transition",
+            "deviceId": "f322b57c0d",
+            "lastState": null
+          },
+          {
+            "topic": "$device/f322b57c0d/channel/batch",
+            "schema": "http://schema.ninjablocks.com/protocol/core/batching",
+            "supportedMethods": [
+              "setBatch"
+            ],
+            "supportedEvents": [],
+            "id": "batch",
+            "protocol": "core/batching",
+            "deviceId": "f322b57c0d",
+            "lastState": null
+          }
+        ],
+        "signatures": {
+          "ninja:manufacturer": "Lifx",
+          "ninja:productName": "Lifx Bulb",
+          "ninja:productType": "Light",
+          "ninja:thingType": "light"
+        }
+      },
+      "deviceId": "f322b57c0d",
+      "location": "040f1815-c7de-11e4-8354-7c669d04e52a",
+      "promoted": true
+    },
+    {
+      "id": "af1c3cec-c7dd-11e4-8354-7c669d04e52a",
+      "type": "mobile",
+      "name": "Xperia Z1",
+      "device": {
+        "topic": "$device/9752258204",
+        "schema": "http://schema.ninjablocks.com/service/device",
+        "supportedMethods": null,
+        "supportedEvents": [],
+        "id": "9752258204",
+        "naturalId": "6444f9c6bfac082",
+        "naturalIdType": "adrid",
+        "name": "Xperia Z1",
+        "thingId": "af1c3cec-c7dd-11e4-8354-7c669d04e52a",
+        "channels": [
+          {
+            "topic": "$device/9752258204/channel/cloud-push-notification",
+            "schema": "http://schema.ninjablocks.com/protocol/notification",
+            "supportedMethods": [
+              "display"
+            ],
+            "supportedEvents": [],
+            "id": "cloud-push-notification",
+            "protocol": "notification",
+            "deviceId": "9752258204",
+            "lastState": null
+          }
+        ],
+        "signatures": {
+          "ninja:manufacturer": "Sony",
+          "ninja:productName": "C6903",
+          "ninja:productType": "Android Device",
+          "ninja:thingType": "mobile"
+        }
+      },
+      "deviceId": "9752258204",
+      "promoted": false
+    },
+    {
+      "id": "7bfe184a-d40e-4604-a28a-c6477cb7e134",
+      "type": "light",
+      "name": "Fluoro",
+      "device": {
+        "topic": "$device/071f4006bf",
+        "schema": "http://schema.ninjablocks.com/service/device",
+        "supportedMethods": null,
+        "supportedEvents": [],
+        "id": "071f4006bf",
+        "naturalId": "137A000001A49C",
+        "naturalIdType": "zigbee",
+        "name": "Ninja Smart plug by Ninja Blocks Inc",
+        "thingId": "7bfe184a-d40e-4604-a28a-c6477cb7e134",
+        "channels": [
+          {
+            "topic": "$device/071f4006bf/channel/1-1794",
+            "schema": "http://schema.ninjablocks.com/protocol/power",
+            "supportedMethods": null,
+            "supportedEvents": [],
+            "id": "1-1794",
+            "protocol": "power",
+            "deviceId": "071f4006bf",
+            "lastState": {
+              "timestamp": 1467280671179,
+              "payload": 0
+            }
+          },
+          {
+            "topic": "$device/071f4006bf/channel/1-6-in",
+            "schema": "http://schema.ninjablocks.com/protocol/on-off",
+            "supportedMethods": [
+              "turnOn",
+              "set",
+              "toggle",
+              "turnOff"
+            ],
+            "supportedEvents": [],
+            "id": "1-6-in",
+            "protocol": "on-off",
+            "deviceId": "071f4006bf",
+            "lastState": {
+              "timestamp": 1467209003888,
+              "payload": false
+            }
+          }
+        ],
+        "signatures": {
+          "ninja:thingType": "socket",
+          "zigbee:ManufacturerName": "Ninja Blocks Inc",
+          "zigbee:ModelIdentifier": "Ninja Smart plug"
+        }
+      },
+      "deviceId": "071f4006bf",
+      "location": "4e9efd24-2c58-4361-8664-979166525efc",
+      "promoted": true
+    },
+    {
+      "id": "CLWWNNSQPGQFK",
+      "type": "node",
+      "name": "Spheramid",
+      "device": {
+        "topic": "$device/f57e54f556",
+        "schema": "http://schema.ninjablocks.com/service/device",
+        "supportedMethods": null,
+        "supportedEvents": [],
+        "id": "f57e54f556",
+        "naturalId": "CLWWNNSQPGQFK",
+        "naturalIdType": "node",
+        "name": "Spheramid CLWWNNSQPGQFK",
+        "thingId": "CLWWNNSQPGQFK",
+        "channels": [],
+        "signatures": {
+          "ninja:manufacturer": "Ninja Blocks Inc.",
+          "ninja:productName": "Spheramid",
+          "ninja:sphereVersion": "1.0.7-1",
+          "ninja:thingType": "node"
+        }
+      },
+      "deviceId": "f57e54f556",
+      "location": "040f1815-c7de-11e4-8354-7c669d04e52a",
+      "promoted": true
+    },
+    {
+      "id": "0de72de4-c8b2-11e4-8e2d-7c669d04e52a",
+      "type": "light",
+      "name": "Table Lamp",
+      "device": {
+        "topic": "$device/9bc2223ab4",
+        "schema": "http://schema.ninjablocks.com/service/device",
+        "supportedMethods": null,
+        "supportedEvents": [],
+        "id": "9bc2223ab4",
+        "naturalId": "d073d500bebc",
+        "naturalIdType": "lifx",
+        "name": "Table Lamp",
+        "thingId": "0de72de4-c8b2-11e4-8e2d-7c669d04e52a",
+        "channels": [
+          {
+            "topic": "$device/9bc2223ab4/channel/brightness",
+            "schema": "http://schema.ninjablocks.com/protocol/brightness",
+            "supportedMethods": [
+              "set"
+            ],
+            "supportedEvents": [],
+            "id": "brightness",
+            "protocol": "brightness",
+            "deviceId": "9bc2223ab4",
+            "lastState": null
+          },
+          {
+            "topic": "$device/9bc2223ab4/channel/illuminance",
+            "schema": "http://schema.ninjablocks.com/protocol/illuminance",
+            "supportedMethods": null,
+            "supportedEvents": [],
+            "id": "illuminance",
+            "protocol": "illuminance",
+            "deviceId": "9bc2223ab4",
+            "lastState": null
+          },
+          {
+            "topic": "$device/9bc2223ab4/channel/batch",
+            "schema": "http://schema.ninjablocks.com/protocol/core/batching",
+            "supportedMethods": [
+              "setBatch"
+            ],
+            "supportedEvents": [],
+            "id": "batch",
+            "protocol": "core/batching",
+            "deviceId": "9bc2223ab4",
+            "lastState": null
+          },
+          {
+            "topic": "$device/9bc2223ab4/channel/on-off",
+            "schema": "http://schema.ninjablocks.com/protocol/on-off",
+            "supportedMethods": [
+              "set",
+              "toggle",
+              "turnOff",
+              "turnOn"
+            ],
+            "supportedEvents": [],
+            "id": "on-off",
+            "protocol": "on-off",
+            "deviceId": "9bc2223ab4",
+            "lastState": null
+          },
+          {
+            "topic": "$device/9bc2223ab4/channel/color",
+            "schema": "http://schema.ninjablocks.com/protocol/color",
+            "supportedMethods": [
+              "set"
+            ],
+            "supportedEvents": [],
+            "id": "color",
+            "protocol": "color",
+            "deviceId": "9bc2223ab4",
+            "lastState": null
+          },
+          {
+            "topic": "$device/9bc2223ab4/channel/transition",
+            "schema": "http://schema.ninjablocks.com/protocol/transition",
+            "supportedMethods": [
+              "set"
+            ],
+            "supportedEvents": [],
+            "id": "transition",
+            "protocol": "transition",
+            "deviceId": "9bc2223ab4",
+            "lastState": null
+          }
+        ],
+        "signatures": {
+          "ninja:manufacturer": "Lifx",
+          "ninja:productName": "Lifx Bulb",
+          "ninja:productType": "Light",
+          "ninja:thingType": "light"
+        }
+      },
+      "deviceId": "9bc2223ab4",
+      "location": "ae5a2494-c7e8-11e4-8e2d-7c669d04e52a",
+      "promoted": true
+    },
+    {
+      "id": "286a71a4-3143-418e-af9f-646579360e41",
+      "type": "xmastree",
+      "name": "Xmas Tree",
+      "device": {
+        "topic": "$device/6ce4dc4e99",
+        "schema": "http://schema.ninjablocks.com/service/device",
+        "supportedMethods": null,
+        "supportedEvents": [],
+        "id": "6ce4dc4e99",
+        "naturalId": "D052A800B14A0003",
+        "naturalIdType": "zigbee",
+        "name": "PGC313 by SmartThings",
+        "thingId": "286a71a4-3143-418e-af9f-646579360e41",
+        "channels": [],
+        "signatures": {
+          "zigbee:ManufacturerName": "SmartThings",
+          "zigbee:ModelIdentifier": "PGC313"
+        }
+      },
+      "deviceId": "6ce4dc4e99",
+      "location": "040f1815-c7de-11e4-8354-7c669d04e52a",
+      "promoted": true
+    },
+    {
+      "id": "9508f485-1ba9-4336-81a6-6ac0c02242ee",
+      "type": "light",
+      "name": "Garage lifx",
+      "device": {
+        "topic": "$device/41ec29b013",
+        "schema": "http://schema.ninjablocks.com/service/device",
+        "supportedMethods": null,
+        "supportedEvents": [],
+        "id": "41ec29b013",
+        "naturalId": "d073d5015ff4",
+        "naturalIdType": "lifx",
+        "name": "Garage",
+        "thingId": "9508f485-1ba9-4336-81a6-6ac0c02242ee",
+        "channels": [
+          {
+            "topic": "$device/41ec29b013/channel/brightness",
+            "schema": "http://schema.ninjablocks.com/protocol/brightness",
+            "supportedMethods": [
+              "set"
+            ],
+            "supportedEvents": [],
+            "id": "brightness",
+            "protocol": "brightness",
+            "deviceId": "41ec29b013",
+            "lastState": {
+              "timestamp": 1467280375687,
+              "payload": 0.4348973830777447
+            }
+          },
+          {
+            "topic": "$device/41ec29b013/channel/illuminance",
+            "schema": "http://schema.ninjablocks.com/protocol/illuminance",
+            "supportedMethods": null,
+            "supportedEvents": [],
+            "id": "illuminance",
+            "protocol": "illuminance",
+            "deviceId": "41ec29b013",
+            "lastState": {
+              "timestamp": 1467280653458,
+              "payload": 1
+            }
+          },
+          {
+            "topic": "$device/41ec29b013/channel/on-off",
+            "schema": "http://schema.ninjablocks.com/protocol/on-off",
+            "supportedMethods": [
+              "turnOn",
+              "set",
+              "toggle",
+              "turnOff"
+            ],
+            "supportedEvents": [],
+            "id": "on-off",
+            "protocol": "on-off",
+            "deviceId": "41ec29b013",
+            "lastState": {
+              "timestamp": 1467280375622,
+              "payload": false
+            }
+          },
+          {
+            "topic": "$device/41ec29b013/channel/color",
+            "schema": "http://schema.ninjablocks.com/protocol/color",
+            "supportedMethods": [
+              "set"
+            ],
+            "supportedEvents": [],
+            "id": "color",
+            "protocol": "color",
+            "deviceId": "41ec29b013",
+            "lastState": {
+              "timestamp": 1467280375693,
+              "payload": {
+                "mode": "temperature",
+                "temperature": 4500
+              }
+            }
+          },
+          {
+            "topic": "$device/41ec29b013/channel/transition",
+            "schema": "http://schema.ninjablocks.com/protocol/transition",
+            "supportedMethods": [
+              "set"
+            ],
+            "supportedEvents": [],
+            "id": "transition",
+            "protocol": "transition",
+            "deviceId": "41ec29b013",
+            "lastState": null
+          },
+          {
+            "topic": "$device/41ec29b013/channel/batch",
+            "schema": "http://schema.ninjablocks.com/protocol/core/batching",
+            "supportedMethods": [
+              "setBatch"
+            ],
+            "supportedEvents": [],
+            "id": "batch",
+            "protocol": "core/batching",
+            "deviceId": "41ec29b013",
+            "lastState": null
+          }
+        ],
+        "signatures": {
+          "ninja:manufacturer": "Lifx",
+          "ninja:productName": "Lifx Bulb",
+          "ninja:productType": "Light",
+          "ninja:thingType": "light"
+        }
+      },
+      "deviceId": "41ec29b013",
+      "location": "4e9efd24-2c58-4361-8664-979166525efc",
+      "promoted": true
+    },
+    {
+      "id": "9dc13222-efe5-45f8-8b0d-0ebc793af67a",
+      "type": "mobile",
+      "name": "Xperia Z1",
+      "device": {
+        "topic": "$device/92e7a80630",
+        "schema": "http://schema.ninjablocks.com/service/device",
+        "supportedMethods": null,
+        "supportedEvents": [],
+        "id": "92e7a80630",
+        "naturalId": "148ebb93930e55a0",
+        "naturalIdType": "adrid",
+        "name": "Xperia Z1",
+        "thingId": "9dc13222-efe5-45f8-8b0d-0ebc793af67a",
+        "channels": [],
+        "signatures": {
+          "ninja:manufacturer": "Sony",
+          "ninja:productName": "C6903",
+          "ninja:productType": "Android Device",
+          "ninja:thingType": "mobile"
+        }
+      },
+      "deviceId": "92e7a80630",
+      "promoted": false
+    },
+    {
+      "id": "e2f45e1e-c8bf-11e4-b316-7c669d04e52a",
+      "type": "tag",
+      "name": "white BLE Tag",
+      "device": {
+        "topic": "$device/a2955ec5bc",
+        "schema": "http://schema.ninjablocks.com/service/device",
+        "supportedMethods": null,
+        "supportedEvents": [],
+        "id": "a2955ec5bc",
+        "naturalId": "F7:09:2B:39:A4:80",
+        "naturalIdType": "BLE Mac",
+        "name": "BLE Tag",
+        "thingId": "e2f45e1e-c8bf-11e4-b316-7c669d04e52a",
+        "channels": [
+          {
+            "topic": "$device/a2955ec5bc/channel/on-off",
+            "schema": "http://schema.ninjablocks.com/protocol/on-off",
+            "supportedMethods": [
+              "set",
+              "toggle",
+              "turnOff",
+              "turnOn"
+            ],
+            "supportedEvents": [],
+            "id": "on-off",
+            "protocol": "on-off",
+            "deviceId": "a2955ec5bc",
+            "lastState": null
+          },
+          {
+            "topic": "$device/a2955ec5bc/channel/identify",
+            "schema": "http://schema.ninjablocks.com/protocol/identify",
+            "supportedMethods": [
+              "identify"
+            ],
+            "supportedEvents": [],
+            "id": "identify",
+            "protocol": "identify",
+            "deviceId": "a2955ec5bc",
+            "lastState": null
+          }
+        ],
+        "signatures": {
+          "ninja:manufacturer": "Sticknfind",
+          "ninja:productName": "SL6",
+          "ninja:productType": "BLE Tag",
+          "ninja:thingType": "tag"
+        }
+      },
+      "deviceId": "a2955ec5bc",
+      "location": "040f1815-c7de-11e4-8354-7c669d04e52a",
+      "promoted": true
+    },
+    {
+      "id": "0c987e63-3300-49d0-946e-8786fac13506",
+      "type": "tag",
+      "name": "BLE Tag",
+      "device": {
+        "topic": "$device/34b91f89b6",
+        "schema": "http://schema.ninjablocks.com/service/device",
+        "supportedMethods": null,
+        "supportedEvents": [],
+        "id": "34b91f89b6",
+        "naturalId": "E5:9A:DC:F9:80:FB",
+        "naturalIdType": "BLE Mac",
+        "name": "BLE Tag",
+        "thingId": "0c987e63-3300-49d0-946e-8786fac13506",
+        "channels": [
+          {
+            "topic": "$device/34b91f89b6/channel/on-off",
+            "schema": "http://schema.ninjablocks.com/protocol/on-off",
+            "supportedMethods": [
+              "set",
+              "toggle",
+              "turnOff",
+              "turnOn"
+            ],
+            "supportedEvents": [],
+            "id": "on-off",
+            "protocol": "on-off",
+            "deviceId": "34b91f89b6",
+            "lastState": null
+          },
+          {
+            "topic": "$device/34b91f89b6/channel/identify",
+            "schema": "http://schema.ninjablocks.com/protocol/identify",
+            "supportedMethods": [
+              "identify"
+            ],
+            "supportedEvents": [],
+            "id": "identify",
+            "protocol": "identify",
+            "deviceId": "34b91f89b6",
+            "lastState": null
+          }
+        ],
+        "signatures": {
+          "ninja:manufacturer": "Sticknfind",
+          "ninja:productName": "SL6",
+          "ninja:productType": "BLE Tag",
+          "ninja:thingType": "tag"
+        }
+      },
+      "deviceId": "34b91f89b6",
+      "promoted": false
+    },
+    {
+      "id": "84d0e486-775e-44e9-ac5c-838d2b597a6c",
+      "type": "mobile",
+      "name": "Xperia Z1",
+      "promoted": false
+    },
+    {
+      "id": "4cf4a22c-7fd5-4c86-bd36-cd57de505d0c",
+      "type": "mediaplayer",
+      "name": "TV",
+      "device": {
+        "topic": "$device/9e56fcc841",
+        "schema": "http://schema.ninjablocks.com/service/device",
+        "supportedMethods": null,
+        "supportedEvents": [],
+        "id": "9e56fcc841",
+        "naturalId": "50:85:69:3a:0b:2e",
+        "naturalIdType": "samsung-tv",
+        "name": "TV",
+        "thingId": "4cf4a22c-7fd5-4c86-bd36-cd57de505d0c",
+        "channels": [
+          {
+            "topic": "$device/9e56fcc841/channel/on-off",
+            "schema": "http://schema.ninjablocks.com/protocol/on-off",
+            "supportedMethods": [
+              "state"
+            ],
+            "supportedEvents": [
+              "set",
+              "turnOff"
+            ],
+            "id": "on-off",
+            "protocol": "on-off",
+            "deviceId": "9e56fcc841",
+            "lastState": {
+              "timestamp": 1467272184195,
+              "payload": false
+            }
+          },
+          {
+            "topic": "$device/9e56fcc841/channel/control",
+            "schema": "http://schema.ninjablocks.com/protocol/media-control",
+            "supportedMethods": [
+              "play",
+              "pause",
+              "togglePlay"
+            ],
+            "supportedEvents": [],
+            "id": "control",
+            "protocol": "media-control",
+            "deviceId": "9e56fcc841",
+            "lastState": null
+          },
+          {
+            "topic": "$device/9e56fcc841/channel/volume",
+            "schema": "http://schema.ninjablocks.com/protocol/volume",
+            "supportedMethods": [
+              "volumeUp",
+              "volumeDown",
+              "toggleMute"
+            ],
+            "supportedEvents": [
+              "state"
+            ],
+            "id": "volume",
+            "protocol": "volume",
+            "deviceId": "9e56fcc841",
+            "lastState": null
+          }
+        ],
+        "signatures": {
+          "ip:mac": "50:85:69:3a:0b:2e",
+          "ninja:manufacturer": "Samsung",
+          "ninja:productName": "Smart TV",
+          "ninja:thingType": "mediaplayer"
+        }
+      },
+      "deviceId": "9e56fcc841",
+      "location": "5f98c8f4-b042-4c31-a1e1-c9b484f7b8ed",
+      "promoted": true
+    },
+    {
+      "id": "4LWGMVLQPKQCK",
+      "type": "node",
+      "name": "Spheramid",
+      "device": {
+        "topic": "$device/76c2665a93",
+        "schema": "http://schema.ninjablocks.com/service/device",
+        "supportedMethods": null,
+        "supportedEvents": [],
+        "id": "76c2665a93",
+        "naturalId": "4LWGMVLQPKQCK",
+        "naturalIdType": "node",
+        "name": "Spheramid 4LWGMVLQPKQCK",
+        "thingId": "4LWGMVLQPKQCK",
+        "channels": [],
+        "signatures": {
+          "ninja:manufacturer": "Ninja Blocks Inc.",
+          "ninja:productName": "Spheramid",
+          "ninja:sphereVersion": "1.0.7-1",
+          "ninja:thingType": "node"
+        }
+      },
+      "deviceId": "76c2665a93",
+      "location": "4e9efd24-2c58-4361-8664-979166525efc",
+      "promoted": true
+    }
+  ]
+}
